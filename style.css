@@ -1,0 +1,94 @@
+.titulo{
+    background-color: darkslategrey;
+    text-align: center;
+    text-decoration: aqua;
+    padding: 20px;
+}
+.cajas{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.caja1{
+    background-color: coral;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.caja2{
+    background-color: darkcyan;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.caja3{
+    background-color: hotpink;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.caja4{
+    background-color: springgreen;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.caja5{
+    background-color: orange;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.caja6{
+    background-color: yellow;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.caja7{
+    background-color: darkred;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.caja8{
+    background-color: navy;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.caja9{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+@media (max-width: 320px) {
+    .cajas {
+        font-size: 3rem;
+        grid-template-columns: 1fr ;
+    }
+}
+
+@media (min-width: 768px) {
+    .cajas {
+        font-size: 3rem;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1024px) {
+    .cajas {
+        font-size: 3rem;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
